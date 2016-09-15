@@ -1,0 +1,654 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45DF98C01D7F4175007C160D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DF98BF1D7F4175007C160D /* AppDelegate.swift */; };
+		45DF98C21D7F4175007C160D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DF98C11D7F4175007C160D /* ViewController.swift */; };
+		45DF98C51D7F4175007C160D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45DF98C31D7F4175007C160D /* Main.storyboard */; };
+		45DF98C81D7F4175007C160D /* Dawghaus.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 45DF98C61D7F4175007C160D /* Dawghaus.xcdatamodeld */; };
+		45DF98CA1D7F4175007C160D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45DF98C91D7F4175007C160D /* Assets.xcassets */; };
+		45DF98CD1D7F4175007C160D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45DF98CB1D7F4175007C160D /* LaunchScreen.storyboard */; };
+		45DF98D81D7F4176007C160D /* DawghausTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DF98D71D7F4176007C160D /* DawghausTests.swift */; };
+		45DF98E31D7F4176007C160D /* DawghausUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DF98E21D7F4176007C160D /* DawghausUITests.swift */; };
+		45DF98F11D7F471F007C160D /* Dawghaus Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 45DF98F01D7F471F007C160D /* Dawghaus Logo.png */; };
+		45DF98F81D7F4A51007C160D /* SignInfoLines.png in Resources */ = {isa = PBXBuildFile; fileRef = 45DF98F51D7F4A51007C160D /* SignInfoLines.png */; };
+		45DF98FC1D7F6027007C160D /* Sign In Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 45DF98FA1D7F6027007C160D /* Sign In Button.png */; };
+		45DF99001D7F618A007C160D /* Sign Up Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 45DF98FE1D7F618A007C160D /* Sign Up Button.png */; };
+		45DF99011D7F618A007C160D /* Sign Up ButtonALT.png in Resources */ = {isa = PBXBuildFile; fileRef = 45DF98FF1D7F618A007C160D /* Sign Up ButtonALT.png */; };
+		45DF99081D7F6717007C160D /* Find a Friend Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 45DF99041D7F6717007C160D /* Find a Friend Icon.png */; };
+		45DF99091D7F6717007C160D /* Matches Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 45DF99051D7F6717007C160D /* Matches Icon.png */; };
+		45DF990A1D7F6717007C160D /* Parks Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 45DF99061D7F6717007C160D /* Parks Icon.png */; };
+		45DF990B1D7F6717007C160D /* Settings Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 45DF99071D7F6717007C160D /* Settings Icon.png */; };
+		45DF990F1D7F6BCE007C160D /* Sign out.png in Resources */ = {isa = PBXBuildFile; fileRef = 45DF990D1D7F6BCE007C160D /* Sign out.png */; };
+		45DF99101D7F6BCE007C160D /* toolbarLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 45DF990E1D7F6BCE007C160D /* toolbarLogo.png */; };
+		45DF99151D7F6E67007C160D /* Dog Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 45DF99121D7F6E67007C160D /* Dog Icon.png */; };
+		45DF99161D7F6E67007C160D /* FindAPark button.png in Resources */ = {isa = PBXBuildFile; fileRef = 45DF99131D7F6E67007C160D /* FindAPark button.png */; };
+		45DF99171D7F6E67007C160D /* Person Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 45DF99141D7F6E67007C160D /* Person Icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45DF98D41D7F4176007C160D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45DF98B41D7F4175007C160D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45DF98BB1D7F4175007C160D;
+			remoteInfo = Dawghaus;
+		};
+		45DF98DF1D7F4176007C160D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45DF98B41D7F4175007C160D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45DF98BB1D7F4175007C160D;
+			remoteInfo = Dawghaus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		45DF98BC1D7F4175007C160D /* Dawghaus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dawghaus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45DF98BF1D7F4175007C160D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		45DF98C11D7F4175007C160D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		45DF98C41D7F4175007C160D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		45DF98C71D7F4175007C160D /* Dawghaus.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Dawghaus.xcdatamodel; sourceTree = "<group>"; };
+		45DF98C91D7F4175007C160D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45DF98CC1D7F4175007C160D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		45DF98CE1D7F4175007C160D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45DF98D31D7F4176007C160D /* DawghausTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DawghausTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45DF98D71D7F4176007C160D /* DawghausTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DawghausTests.swift; sourceTree = "<group>"; };
+		45DF98D91D7F4176007C160D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45DF98DE1D7F4176007C160D /* DawghausUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DawghausUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45DF98E21D7F4176007C160D /* DawghausUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DawghausUITests.swift; sourceTree = "<group>"; };
+		45DF98E41D7F4176007C160D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45DF98F01D7F471F007C160D /* Dawghaus Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Dawghaus Logo.png"; sourceTree = "<group>"; };
+		45DF98F51D7F4A51007C160D /* SignInfoLines.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SignInfoLines.png; sourceTree = "<group>"; };
+		45DF98FA1D7F6027007C160D /* Sign In Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sign In Button.png"; sourceTree = "<group>"; };
+		45DF98FE1D7F618A007C160D /* Sign Up Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sign Up Button.png"; sourceTree = "<group>"; };
+		45DF98FF1D7F618A007C160D /* Sign Up ButtonALT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sign Up ButtonALT.png"; sourceTree = "<group>"; };
+		45DF99041D7F6717007C160D /* Find a Friend Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Find a Friend Icon.png"; sourceTree = "<group>"; };
+		45DF99051D7F6717007C160D /* Matches Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Matches Icon.png"; sourceTree = "<group>"; };
+		45DF99061D7F6717007C160D /* Parks Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Parks Icon.png"; sourceTree = "<group>"; };
+		45DF99071D7F6717007C160D /* Settings Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Settings Icon.png"; sourceTree = "<group>"; };
+		45DF990D1D7F6BCE007C160D /* Sign out.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sign out.png"; sourceTree = "<group>"; };
+		45DF990E1D7F6BCE007C160D /* toolbarLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toolbarLogo.png; sourceTree = "<group>"; };
+		45DF99121D7F6E67007C160D /* Dog Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Dog Icon.png"; sourceTree = "<group>"; };
+		45DF99131D7F6E67007C160D /* FindAPark button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FindAPark button.png"; sourceTree = "<group>"; };
+		45DF99141D7F6E67007C160D /* Person Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Person Icon.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45DF98B91D7F4175007C160D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45DF98D01D7F4176007C160D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45DF98DB1D7F4176007C160D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45DF98B31D7F4175007C160D = {
+			isa = PBXGroup;
+			children = (
+				45DF98BE1D7F4175007C160D /* Dawghaus */,
+				45DF98D61D7F4176007C160D /* DawghausTests */,
+				45DF98E11D7F4176007C160D /* DawghausUITests */,
+				45DF98BD1D7F4175007C160D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45DF98BD1D7F4175007C160D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45DF98BC1D7F4175007C160D /* Dawghaus.app */,
+				45DF98D31D7F4176007C160D /* DawghausTests.xctest */,
+				45DF98DE1D7F4176007C160D /* DawghausUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45DF98BE1D7F4175007C160D /* Dawghaus */ = {
+			isa = PBXGroup;
+			children = (
+				45DF98F21D7F4725007C160D /* Resources */,
+				45DF98BF1D7F4175007C160D /* AppDelegate.swift */,
+				45DF98C11D7F4175007C160D /* ViewController.swift */,
+				45DF98C31D7F4175007C160D /* Main.storyboard */,
+				45DF98C91D7F4175007C160D /* Assets.xcassets */,
+				45DF98CB1D7F4175007C160D /* LaunchScreen.storyboard */,
+				45DF98CE1D7F4175007C160D /* Info.plist */,
+				45DF98C61D7F4175007C160D /* Dawghaus.xcdatamodeld */,
+			);
+			path = Dawghaus;
+			sourceTree = "<group>";
+		};
+		45DF98D61D7F4176007C160D /* DawghausTests */ = {
+			isa = PBXGroup;
+			children = (
+				45DF98D71D7F4176007C160D /* DawghausTests.swift */,
+				45DF98D91D7F4176007C160D /* Info.plist */,
+			);
+			path = DawghausTests;
+			sourceTree = "<group>";
+		};
+		45DF98E11D7F4176007C160D /* DawghausUITests */ = {
+			isa = PBXGroup;
+			children = (
+				45DF98E21D7F4176007C160D /* DawghausUITests.swift */,
+				45DF98E41D7F4176007C160D /* Info.plist */,
+			);
+			path = DawghausUITests;
+			sourceTree = "<group>";
+		};
+		45DF98F21D7F4725007C160D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				45DF99111D7F6E52007C160D /* DirectMessage Toolbar Icons */,
+				45DF990C1D7F6BBA007C160D /* Top Area Toolbar Icons */,
+				45DF99031D7F6701007C160D /* Dock Icons */,
+				45DF99021D7F66F4007C160D /* Messages Page */,
+				45DF98F91D7F5F10007C160D /* Landing/SignInPage */,
+				45DF98F01D7F471F007C160D /* Dawghaus Logo.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		45DF98F91D7F5F10007C160D /* Landing/SignInPage */ = {
+			isa = PBXGroup;
+			children = (
+				45DF98F51D7F4A51007C160D /* SignInfoLines.png */,
+				45DF98FA1D7F6027007C160D /* Sign In Button.png */,
+				45DF98FE1D7F618A007C160D /* Sign Up Button.png */,
+				45DF98FF1D7F618A007C160D /* Sign Up ButtonALT.png */,
+			);
+			name = Landing/SignInPage;
+			sourceTree = "<group>";
+		};
+		45DF99021D7F66F4007C160D /* Messages Page */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Messages Page";
+			sourceTree = "<group>";
+		};
+		45DF99031D7F6701007C160D /* Dock Icons */ = {
+			isa = PBXGroup;
+			children = (
+				45DF99041D7F6717007C160D /* Find a Friend Icon.png */,
+				45DF99051D7F6717007C160D /* Matches Icon.png */,
+				45DF99061D7F6717007C160D /* Parks Icon.png */,
+				45DF99071D7F6717007C160D /* Settings Icon.png */,
+			);
+			name = "Dock Icons";
+			sourceTree = "<group>";
+		};
+		45DF990C1D7F6BBA007C160D /* Top Area Toolbar Icons */ = {
+			isa = PBXGroup;
+			children = (
+				45DF990D1D7F6BCE007C160D /* Sign out.png */,
+				45DF990E1D7F6BCE007C160D /* toolbarLogo.png */,
+			);
+			name = "Top Area Toolbar Icons";
+			sourceTree = "<group>";
+		};
+		45DF99111D7F6E52007C160D /* DirectMessage Toolbar Icons */ = {
+			isa = PBXGroup;
+			children = (
+				45DF99121D7F6E67007C160D /* Dog Icon.png */,
+				45DF99131D7F6E67007C160D /* FindAPark button.png */,
+				45DF99141D7F6E67007C160D /* Person Icon.png */,
+			);
+			name = "DirectMessage Toolbar Icons";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45DF98BB1D7F4175007C160D /* Dawghaus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45DF98E71D7F4176007C160D /* Build configuration list for PBXNativeTarget "Dawghaus" */;
+			buildPhases = (
+				45DF98B81D7F4175007C160D /* Sources */,
+				45DF98B91D7F4175007C160D /* Frameworks */,
+				45DF98BA1D7F4175007C160D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dawghaus;
+			productName = Dawghaus;
+			productReference = 45DF98BC1D7F4175007C160D /* Dawghaus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		45DF98D21D7F4176007C160D /* DawghausTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45DF98EA1D7F4176007C160D /* Build configuration list for PBXNativeTarget "DawghausTests" */;
+			buildPhases = (
+				45DF98CF1D7F4176007C160D /* Sources */,
+				45DF98D01D7F4176007C160D /* Frameworks */,
+				45DF98D11D7F4176007C160D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45DF98D51D7F4176007C160D /* PBXTargetDependency */,
+			);
+			name = DawghausTests;
+			productName = DawghausTests;
+			productReference = 45DF98D31D7F4176007C160D /* DawghausTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		45DF98DD1D7F4176007C160D /* DawghausUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45DF98ED1D7F4176007C160D /* Build configuration list for PBXNativeTarget "DawghausUITests" */;
+			buildPhases = (
+				45DF98DA1D7F4176007C160D /* Sources */,
+				45DF98DB1D7F4176007C160D /* Frameworks */,
+				45DF98DC1D7F4176007C160D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45DF98E01D7F4176007C160D /* PBXTargetDependency */,
+			);
+			name = DawghausUITests;
+			productName = DawghausUITests;
+			productReference = 45DF98DE1D7F4176007C160D /* DawghausUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45DF98B41D7F4175007C160D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Chase Drum";
+				TargetAttributes = {
+					45DF98BB1D7F4175007C160D = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = G6E6V4WF53;
+						ProvisioningStyle = Automatic;
+					};
+					45DF98D21D7F4176007C160D = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = G6E6V4WF53;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 45DF98BB1D7F4175007C160D;
+					};
+					45DF98DD1D7F4176007C160D = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = G6E6V4WF53;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 45DF98BB1D7F4175007C160D;
+					};
+				};
+			};
+			buildConfigurationList = 45DF98B71D7F4175007C160D /* Build configuration list for PBXProject "Dawghaus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45DF98B31D7F4175007C160D;
+			productRefGroup = 45DF98BD1D7F4175007C160D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45DF98BB1D7F4175007C160D /* Dawghaus */,
+				45DF98D21D7F4176007C160D /* DawghausTests */,
+				45DF98DD1D7F4176007C160D /* DawghausUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45DF98BA1D7F4175007C160D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45DF98CD1D7F4175007C160D /* LaunchScreen.storyboard in Resources */,
+				45DF98F11D7F471F007C160D /* Dawghaus Logo.png in Resources */,
+				45DF98F81D7F4A51007C160D /* SignInfoLines.png in Resources */,
+				45DF99161D7F6E67007C160D /* FindAPark button.png in Resources */,
+				45DF99011D7F618A007C160D /* Sign Up ButtonALT.png in Resources */,
+				45DF99001D7F618A007C160D /* Sign Up Button.png in Resources */,
+				45DF990F1D7F6BCE007C160D /* Sign out.png in Resources */,
+				45DF99171D7F6E67007C160D /* Person Icon.png in Resources */,
+				45DF99091D7F6717007C160D /* Matches Icon.png in Resources */,
+				45DF990B1D7F6717007C160D /* Settings Icon.png in Resources */,
+				45DF99101D7F6BCE007C160D /* toolbarLogo.png in Resources */,
+				45DF99081D7F6717007C160D /* Find a Friend Icon.png in Resources */,
+				45DF98CA1D7F4175007C160D /* Assets.xcassets in Resources */,
+				45DF98C51D7F4175007C160D /* Main.storyboard in Resources */,
+				45DF990A1D7F6717007C160D /* Parks Icon.png in Resources */,
+				45DF98FC1D7F6027007C160D /* Sign In Button.png in Resources */,
+				45DF99151D7F6E67007C160D /* Dog Icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45DF98D11D7F4176007C160D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45DF98DC1D7F4176007C160D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45DF98B81D7F4175007C160D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45DF98C21D7F4175007C160D /* ViewController.swift in Sources */,
+				45DF98C01D7F4175007C160D /* AppDelegate.swift in Sources */,
+				45DF98C81D7F4175007C160D /* Dawghaus.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45DF98CF1D7F4176007C160D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45DF98D81D7F4176007C160D /* DawghausTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45DF98DA1D7F4176007C160D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45DF98E31D7F4176007C160D /* DawghausUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45DF98D51D7F4176007C160D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45DF98BB1D7F4175007C160D /* Dawghaus */;
+			targetProxy = 45DF98D41D7F4176007C160D /* PBXContainerItemProxy */;
+		};
+		45DF98E01D7F4176007C160D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45DF98BB1D7F4175007C160D /* Dawghaus */;
+			targetProxy = 45DF98DF1D7F4176007C160D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		45DF98C31D7F4175007C160D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45DF98C41D7F4175007C160D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		45DF98CB1D7F4175007C160D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45DF98CC1D7F4175007C160D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45DF98E51D7F4176007C160D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		45DF98E61D7F4176007C160D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45DF98E81D7F4176007C160D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G6E6V4WF53;
+				INFOPLIST_FILE = Dawghaus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chasedrum.Dawghaus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		45DF98E91D7F4176007C160D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G6E6V4WF53;
+				INFOPLIST_FILE = Dawghaus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chasedrum.Dawghaus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		45DF98EB1D7F4176007C160D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = G6E6V4WF53;
+				INFOPLIST_FILE = DawghausTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chasedrum.DawghausTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dawghaus.app/Dawghaus";
+			};
+			name = Debug;
+		};
+		45DF98EC1D7F4176007C160D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = G6E6V4WF53;
+				INFOPLIST_FILE = DawghausTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chasedrum.DawghausTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dawghaus.app/Dawghaus";
+			};
+			name = Release;
+		};
+		45DF98EE1D7F4176007C160D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = G6E6V4WF53;
+				INFOPLIST_FILE = DawghausUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chasedrum.DawghausUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Dawghaus;
+			};
+			name = Debug;
+		};
+		45DF98EF1D7F4176007C160D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = G6E6V4WF53;
+				INFOPLIST_FILE = DawghausUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chasedrum.DawghausUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Dawghaus;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45DF98B71D7F4175007C160D /* Build configuration list for PBXProject "Dawghaus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45DF98E51D7F4176007C160D /* Debug */,
+				45DF98E61D7F4176007C160D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45DF98E71D7F4176007C160D /* Build configuration list for PBXNativeTarget "Dawghaus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45DF98E81D7F4176007C160D /* Debug */,
+				45DF98E91D7F4176007C160D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		45DF98EA1D7F4176007C160D /* Build configuration list for PBXNativeTarget "DawghausTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45DF98EB1D7F4176007C160D /* Debug */,
+				45DF98EC1D7F4176007C160D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		45DF98ED1D7F4176007C160D /* Build configuration list for PBXNativeTarget "DawghausUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45DF98EE1D7F4176007C160D /* Debug */,
+				45DF98EF1D7F4176007C160D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		45DF98C61D7F4175007C160D /* Dawghaus.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				45DF98C71D7F4175007C160D /* Dawghaus.xcdatamodel */,
+			);
+			currentVersion = 45DF98C71D7F4175007C160D /* Dawghaus.xcdatamodel */;
+			path = Dawghaus.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 45DF98B41D7F4175007C160D /* Project object */;
+}
